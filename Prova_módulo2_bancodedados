@@ -5,7 +5,7 @@ farm=sqlite3.connect("escola.db")
 cursor=farm.cursor()
 
 #cursor.execute("CREATE TABLE alunos(id INTEGER PRIMARY KEY AUTOINCREMENT,nome text,idade text,email text)")
-#cursor.execute("CREATE TABLE professores( id INTEGER PRIMARY KEY AUTOINCREMENT,nome,idade,email text)")
+
 
 
 # inserindo na tabela alunos:
@@ -28,10 +28,7 @@ cursor=farm.cursor()
 # cursor.execute("INSERT INTO alunos('nome','idade','email') values('Gustavo Alessandro','16 anos','guga2.0@gmail.com')")
 # cursor.execute("INSERT INTO alunos('nome','idade','email') values('Maísa','15 anos','Maísa@123')")
 # cursor.execute("INSERT INTO alunos('nome','idade','email') values('Jubileu','17 anos','Jubileuzinho@gmail.com')")
-# inserindo na tabela Professor:
-#cursor.execute("INSERT INTO Professores('nome','idade','email') values('Ricardo','25 anos','Ricardão@gmail.com')")
-# cursor.execute("INSERT INTO Professores('nome','idade','email') values('Alberto','26 anos','Beto_programador@gmail.com')")
-# cursor.execute("INSERT INTO Professores('nome','idade','email') values('Yuri','30 anos','yuri_mestre@gmail.com')")
+
 
 #cursor.execute("SELECT * FROM alunos WHERE id=11")
 # print(cursor.fetchall())
