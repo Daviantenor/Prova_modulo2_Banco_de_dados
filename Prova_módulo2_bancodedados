@@ -29,7 +29,8 @@ cursor=farm.cursor()
 # cursor.execute("INSERT INTO alunos('nome','idade','email') values('Maísa','15 anos','Maísa@123')")
 # cursor.execute("INSERT INTO alunos('nome','idade','email') values('Jubileu','17 anos','Jubileuzinho@gmail.com')")
 
-
+#cursor.execute("SELECT * FROM alunos ")
+# print(cursor.fetchall())
 #cursor.execute("SELECT * FROM alunos WHERE id=11")
 # print(cursor.fetchall())
 #cursor.execute("DELETE FROM  alunos WHERE id='1'")
