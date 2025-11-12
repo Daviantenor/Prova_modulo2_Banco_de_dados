@@ -1,0 +1,48 @@
+import sqlite3
+
+farm=sqlite3.connect("escola.db")
+
+cursor=farm.cursor()
+
+#cursor.execute("CREATE TABLE alunos(id INTEGER PRIMARY KEY AUTOINCREMENT,nome text,idade text,email text)")
+#cursor.execute("CREATE TABLE professores( id INTEGER PRIMARY KEY AUTOINCREMENT,nome,idade,email text)")
+
+
+# inserindo na tabela alunos:
+# cursor.execute("INSERT INTO alunos('nome','idade','email') values('Arthur','16 anos','Felix_coxta@124')")
+# cursor.execute("INSERT INTO alunos('nome','idade','email') values('Davi','15 anos','Davisbeta@gmail.com')")
+# cursor.execute("INSERT INTO alunos('nome','idade','email') values('Ezequiel','15 anos','Zéquiel333@gmail.com')")
+# cursor.execute("INSERT INTO alunos('nome','idade','email') values('Gustavo Souza','16 anos','gugazin@123')")
+# cursor.execute("INSERT INTO alunos('nome','idade','email') values('Isáac','15 anos','Isáacsinistro@gmail.com')")
+# cursor.execute("INSERT INTO alunos('nome','idade','email') values('Isabelle Eduarda','15 anos','Ysa_453@gmail.com')")
+# cursor.execute("INSERT INTO alunos('nome','idade','email') values('Isabelle Luisa','16 anos','Isa_mestre@gmailcom')")
+# cursor.execute("INSERT INTO alunos('nome','idade','email') values('José','15 anos','Zédaroça@gmail.com')")
+# cursor.execute("INSERT INTO alunos('nome','idade','email') values('Juan','15 anos','Juanzeee@gmail.com')")
+# cursor.execute("INSERT INTO alunos('nome','idade','email') values('Kaua','15 anos','Kauazin@gmail.com')")
+# cursor.execute("INSERT INTO alunos('nome','idade','email') values('Kethleen','15 anos','Keth_123@gmail.com')")
+# cursor.execute("INSERT INTO alunos('nome','idade','email') values('Pedro','15 anos','Pedrodograu@gmail.com')")
+# cursor.execute("INSERT INTO alunos('nome','idade','email') values('Rebeca','15 anos','Rebecadazo@gmail.com')")
+# cursor.execute("INSERT INTO alunos('nome','idade','email') values('Roberta','15 anos','Roberta1254@gmail.com')")
+# cursor.execute("INSERT INTO alunos('nome','idade','email') values('Vitória','15 anos','vihzinha_top532@gmail.com')")
+# cursor.execute("INSERT INTO alunos('nome','idade','email') values('Stefany','15 anos','Fanyhgr@gmail.com')")
+# cursor.execute("INSERT INTO alunos('nome','idade','email') values('Gustavo Alessandro','16 anos','guga2.0@gmail.com')")
+# cursor.execute("INSERT INTO alunos('nome','idade','email') values('Maísa','15 anos','Maísa@123')")
+# cursor.execute("INSERT INTO alunos('nome','idade','email') values('Jubileu','17 anos','Jubileuzinho@gmail.com')")
+# inserindo na tabela Professor:
+#cursor.execute("INSERT INTO Professores('nome','idade','email') values('Ricardo','25 anos','Ricardão@gmail.com')")
+# cursor.execute("INSERT INTO Professores('nome','idade','email') values('Alberto','26 anos','Beto_programador@gmail.com')")
+# cursor.execute("INSERT INTO Professores('nome','idade','email') values('Yuri','30 anos','yuri_mestre@gmail.com')")
+
+#cursor.execute("SELECT * FROM alunos WHERE id=11")
+# print(cursor.fetchall())
+#cursor.execute("DELETE FROM  alunos WHERE id='1'")
+#cursor.execute("UPDATE alunos SET nome='Kethleen' WHERE id='11' ")
+
+
+
+
+
+
+
+
+farm.commit()
